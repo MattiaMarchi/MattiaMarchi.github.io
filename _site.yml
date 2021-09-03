@@ -24,4 +24,4 @@ navbar:
       href: https://www.linkedin.com/in/mattia-marchi-b87996197/
 output:
     html_document:
-    theme: cyborg
+      theme: flatly
