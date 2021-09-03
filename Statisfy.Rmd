@@ -4,7 +4,7 @@ output: html_document
 ---
 </br>
 <center>
-<img src="images/LOGO STATISFY-1.jpg" style="width:90%; border:10px solid; margin-right: 20px" align="center">
+<img src="images/LOGO STATISFY-1.jpg" style="width:70%; border:10px solid; margin-right: 20px" align="center">
 </center>
 </br>
 
