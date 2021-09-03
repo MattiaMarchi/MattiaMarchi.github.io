@@ -1,5 +1,6 @@
 ---
-title: "Statisfy"
+title: "STATISFY"
+subtitle: "Hi-Fi Statistics"
 output: html_document
 ---
 </br>
