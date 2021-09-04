@@ -5,68 +5,68 @@ output: html_document
 ---
 </br>
 <center>
-<img src="images/LOGO STATISFY-1 copia.jpg" style="width:50%;margin-right: 20px" align="center">
+<img src="images/LOGO STATISFY-1 copia.jpg" style="width:30%;margin-right: 20px" align="center">
 </center>
 </br>
 
-# Chi sono?
-La tua ricerca e i tuoi dati sono importanti. You have put a lot of work, expertise, and time into getting the right data to answer your questions. And now, it's time to analyze. You can't be expected to master the entire field of stats AND your field. You need *statistical coaching*. That's why you need me. The Chatistician.
-
-Statisfy (sono io, **Mattia**) is here to **chat** about all your casual consulting needs. I am a PhD Student (with an M.S.) in the Computational and Data Sciences. My [research](research.html) focuses on using Statistics and Machine Learning on Behavioral (read, Psychology) data. 
-
-I want to help people who need a *little* stats help, but not a full on consulting statistician. Both my help, and my prices are casual. Since I started doing stats, I've had friends and family calling me and texting me, asking for **statistical guidance**. I love helping them. But recently I realized that not everyone has a statistician best friend...till now!
-
-Statisfy aims to **chat** with you and provide you with **statistical advice**, and a sounding board for all your statistical needs. *You should hire me if you do your own stats but need a sanity check or answers to make sure you're doing things well*. Need to make sure you're on the right track? Need someone to proof your methods section, or help you respond to Reviewer #2 with ease? Contact me! I'll even help you without face-to-face interaction, if you're having one of those days (check out the **Nano Chat**!)
-
-</br>
-</br>
-
-### Why you should hire me:
-- I won't talk down to you
-- I have tons of experience in experimental design
-- I know a lot about stats and I love to talk about it
-- I've honed my ability to talk about complex stats topics in a way that almost anyone can understand (check it out [here](writing.html)).
-
-### What I DONT do:
-- Run your analyses for you.
-- Write your results/methods for you.
-- Write your code for you.
-- Insist you make me an author on your paper (but you can thank me in the acknowledgments!).
-
-### What I can do:
-- Frequentist Statistics
-- Bayesian Statistics
-- Machine Learning (Supervised AND Unsupervised)
-- Survey Design
-- Software I am great at: R, Python, JASP, JMP
-- Software I am okay at: SPSS, STATA
-
-### What I can't do:
-- All sorts of things, like roll my R's and do a pull up. But if you need help with something statistical that is too far out of my area of expertise, I'll let you know that, recommend people/resources that might be able to help you, and *refund your money*!
-
-</br>
-</br>
-
-# The MENU
-
 <center>
-**Special Introductory Prices!**
+## **STATISFY** mira a fornirti **consigli statistici soddisfacenti**
 </center>
+</br>
+
+Statisfy (sono io, **[Mattia](MattiaMarchi.html)**) è qui per **[chiacchierare](contact.html)** su tutte le tue esigenze di consulenza occasionale. Sono un Dottorando (con laurea magistrale in Medicina e Chirurgia, specializzato in Psichiatria) in Neuroscienze. Le mie [ricerche](research.html) sono nel campo della medicina, in particolare in Psichiatria e Salute Mentale, e si focalizzano principalmente sull'utilizzo di statistica e machine learning su dati epidemiologici.
+
+Vorrei aiutare persone che necessitano di un *piccolo* aiuto statistico, ma non di uno statistico consulente completo. Da quando ho iniziato a fare statistica, un sacco di amici e colleghi mi chiamavno e mi scrivevano per chiedere **aiuti statistici**. Mi diverto molto ad aiutarli. Ma mi sono reso conto che non tutti hanno un migliore amico statistico... finora!
+
+La tua ricerca e i tuoi dati sono importanti. Hai dedicato molto lavoro, impegno e tempo per ottenere i dati giusti per rispondere alle tue domande. E ora è il momento di analizzarli! Ci sono una miriade di possibili modelli statistici. Non perdere tempo e dai valore a tutti i tuoi sforzi, [contattami](contact.html).
+
+*Dovresti ingaggiarmi se stai per iniziare ad analizzare i tuoi dati e hai bisogno di essere indirizzato sulla strada giusta (ossia, sul miglior modello statistico), oppure se stai facendo le tue analisi statistiche ma hai bisogno di un controllo d'integrità o di risposte per essere sicuro che stai facendo le cose correttamente.*
 
 </br>
 
-- **Large Chat ($80):** 60 minute video/voice call consultation + 3 follow up emails.
+### Perchè dovresti ingaggiarmi:
+- Non ti parlerò con sufficienza.
+- Ho esperienza nella pianificazione di studi sperimentali.
+- Conosco la statistica e mi diverto ad analizzare i dati.
+- Ho affinato la mia abilità di rendere concetti complessi pronti per essere compresi e memorizzati.
+- Sono madrelingua italiano e conosco l'inglese (posso fornire supporto in entrambe le lingue) e **[puoi leggere questa pagina anche in inglese](statisfyEN.html)**.
 
-- **Medium Chat ($45):** 30 minute video/voice or voice call consultation + 2 follow up emails.
+### Cosa NON faccio:
+- Ripetizioni di statistica.
+- Eseguire le analisi al tuo posto.
+- Scrivere la sezione metodi/risultati al tuo posto.
+- Scrivere i codici al tuo posto (ma posso condividere i miei codici con te).
+- Insistere che tu mi inserisca tra gli autori del tuo articolo (ma puoi ringraziarmi nei *acknowledgments* se vuoi).
 
-- **Tiny Chat ($25):** 15 minute video/voice call consultation + 2 follow up emails.
+### Cosa so fare:
+- Revisioni sistematiche e Meta-analisi.
+- Regressioni logistiche e lineari.
+- Analisi della sopravvivenza.
+- Machine Learning.
+- Structural Equation Modelling.
+- Software che conosco: R, STATA.
 
-- **Nano Chat ($20):** A purely text/email consultation. Up to 30 minutes of my time (only my time spent reading/responding counts!).
+### Cosa non so fare:
+- Hai bisogno di aiuto su qualcosa esula dalla mia area di competenza? Te lo farò sapere, ti consiglierò persone/riferimenti che potrebbero aiutarti e *rimborserò i tuoi soldi*!
 
-- **Reviewer 2 Special ($50):** Need help prepping your methods section? Responding to Reviewer 2's COMPLETELY unfair criticism? I'll spend up to 30 minutes reviewing your paper, and 30 minutes on a video/voice call with you.
+</br>
+
+### Il MENU
+
+</br>
+
+- **Chiacchierata Estesa (80€):** 60 minuti di chiamata video/vocale di consulenza + 3 email di follow up.
+
+- **Chiacchierata Media (45€):** 30 minuti di chiamata video/vocale di consulenza + 2 email di follow up.
+
+- **Piccola Chiacchierata (25€):** 15 minuti di chiamata video/vocale di consulenza + 2 email di follow up.
+
+- **Nano Chiacchierata (20€):** Una consulenza solamente per iscritto. Fino a 30 minuti del mio tempo (solo il tempo speso a leggere/rispondere viene conteggiato!).
+
+- **Revisore 2 Special (50€):** Hai bisogno di aiuto per preparare la tua sezione dei metodi? O per rispondere ad una critica scorretta di un revisore? Spenderò fino a 30 minuti a revisionare il tuo articolo e farò una chiamata video/vocale di 30 minuti con te.
 
 </br>
 
 <center>
-**To hire me, email me at statisfy@icloud.com**
+**Per ingaggiarmi, manda un'email a statisfy@icloud.com**
 </center>

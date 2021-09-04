@@ -5,25 +5,22 @@ output: html_document
 ---
 </br>
 <center>
-<img src="images/LOGO STATISFY-1 copia.jpg" style="width:20%;margin-right: 20px" align="center">
+<img src="images/LOGO STATISFY-1 copia.jpg" style="width:30%;margin-right: 20px" align="center">
 </center>
 </br>
 
 <center>
-## **STATISFY** aims to provide you with **satisfying statistical advice**.
+## **STATISFY** aims to provide you with **satisfying statistical advice**
 </center>
 </br>
-</br>
-</br>
 
-### Are you a student or a researcher struggling with the analysis of your data?
-</br>
-Statisfy (that's me, **[Mattia](MattiaMarchi.html)**) is here to **[chat](contact.html)** about all your casual consulting needs. I am a PhD Student (with Master's Degree in Medicine, and specialization in Psychiatry) in Neuroscience. My [research](research.html) is in the field of Medicine, particularly in Psychiatry, and mainly focuses on using Statistics and Machine Learning on Epidemiological data.
+Statisfy (that's me, **[Mattia](MattiaMarchi.html)**) is here to **[chat](contact.html)** about all your casual consulting needs. I am a PhD Student (with Master's Degree in Medicine, and specialization in Psychiatry) in Neuroscience. My [research](research.html) is in the field of Medicine, particularly in Psychiatry & Mental Health, and mainly focuses on using Statistics and Machine Learning on Epidemiological data.
 
-I want to help people who need a *little* stats help, but not a full on consulting statistician. Both my help, and my prices are casual. Since I started doing stats, I've had friends and colleagues calling me and texting me, asking for **statistical guidance**. I love helping them. But recently I realized that not everyone has a statistician best friend...till now!
+I want to help people who need a *little* stats help, but not a full on consulting statistician. Since I started doing stats, I've had friends and colleagues calling me and texting me, asking for **statistical guidance**. I love helping them. But recently I realized that not everyone has a statistician best friend...till now!
 
-Your research and data are important. You have put a lot of work, expertise, and time into getting the right data to answer your questions. Then, it's time to analyze, and here you may need me.
-*You should hire me if you do your own stats but need a sanity check or answers to make sure you're doing things well*. Need to make sure you're on the right track? Need someone to proof your methods section, or help you respond to Reviewer #2 with ease? Contact me! I'll even help you without face-to-face interaction, if you're having one of those days (check out the **Nano Chat**!)
+Your research and data are important. You have put a lot of work, expertise, and time into getting the right data to answer your questions. And now, it's time to analyze! There are tons of possible statistical models. Don't waste your time and get value to all your efforts, [contact me](contact.html).
+
+*You should hire me either if you are going to analyze your data and need to be sure to chose the right track (read the best statistical model) or you are doing your own stats but need a sanity check or answers to make sure you're doing things well*.
 
 </br>
 
@@ -32,26 +29,26 @@ Your research and data are important. You have put a lot of work, expertise, and
 - I have experience in experimental design.
 - I know about stats and I have fun analyzing data.
 - I've honed my ability to talk about complex topics in a way that almost anyone can understand.
-- I am Italian mother tongue AND good English speaker (I can provide support in both languages, and you can **[read this page also in Italian](statisfyIT.html)**).
+- I am Italian mother tongue AND good English speaker (I can provide support in both languages, and you can **[read this page also in Italian](statisfyIT.html)**.
 
 ### What I DON'T do:
+- Stats lessons.
 - Run your analyses for you.
 - Write your results/methods for you.
 - Write your code for you (but I can share my codes with you).
 - Insist you make me an author on your paper (but you can thank me in the *acknowledgments*).
 
 ### What I can do:
-- Systematic Review AND Meta-analysis
-- OLS Regression
-- Survival Analysis
-- Machine Learning
-- Structural Equation Modelling
-- Software I am good at: R, STATA
+- Systematic Review AND Meta-analysis.
+- OLS Regression.
+- Survival Analysis.
+- Machine Learning.
+- Structural Equation Modelling.
+- Software I am good at: R, STATA.
 
 ### What I can't do:
 - Need help with something that is too far out of my area of expertise? I'll let you know that, recommend people/resources that might be able to help you, and *refund your money*!
 
-</br>
 </br>
 
 ### The MENU

@@ -6,9 +6,9 @@ output: html_document
 <center>
 <img src="images/LOGO STATISFY-1 copia.jpg" style="width:40%;margin-right: 20px" align="center">
 
-## **STATISFY** aims to provide you with **satisfying statistical advice**.
+## **STATISFY** aims to provide you with **satisfying statistical advice**
 </br>
 
 ### Are you a student or a researcher struggling with the analysis of your data?
 </br>
-[Get Started](statisfyEN.html)
+[You may need me](statisfyEN.html)
