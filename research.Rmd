@@ -4,5 +4,5 @@ author: "Mattia Marchi"
 output: html_document
 ---
 
-Some of my codes may be helpful for you.
+Find out my research works.
 [Google Scholar](https://scholar.google.it/citations?user=RubhEzEAAAAJ&hl=it&authuser=1)
