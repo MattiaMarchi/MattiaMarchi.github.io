@@ -2,9 +2,10 @@ name: "Mattia Marchi"
 output_dir: "."
 navbar:
   title: "Statisfy ft. Mattia Marchi"
+  href: index.html
   left:
-    - text: "Home"
-      href: index.html
+    - text: "Get Started"
+      href: statisfyEN.html
     - text: "Who I am"
       href: MattiaMarchi.html
     - text: "Coding"
