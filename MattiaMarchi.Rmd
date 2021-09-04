@@ -6,7 +6,7 @@ output:  html_document
 
 
 
-<img src="images/Me.jpg" style="width:25%; margin-right: 20px" align="left">
+<img src="images/Me1.jpg" style="width:25%; margin-right: 20px" align="left">
 
 **NOTE**: I am now open for [Casual Stats Consulting](index.html). A solution for those who don't need a full on consulting statistician, but need a little bit of help.
 
