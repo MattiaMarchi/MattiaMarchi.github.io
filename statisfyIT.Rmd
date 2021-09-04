@@ -14,9 +14,9 @@ output: html_document
 </center>
 </br>
 
-Statisfy (sono io, **[Mattia](MattiaMarchi.html)**) è qui per **[chiacchierare](contact.html)** su tutte le tue esigenze di consulenza occasionale. Sono un Dottorando (con laurea magistrale in Medicina e Chirurgia, specializzato in Psichiatria) in Neuroscienze. Le mie [ricerche](research.html) sono nel campo della medicina, in particolare in Psichiatria e Salute Mentale, e si focalizzano principalmente sull'utilizzo di statistica e machine learning su dati epidemiologici.
+Statisfy (sono io, **[Mattia](MattiaMarchi.html)**) è qui per **[parlare](contact.html)** di tutte le tue esigenze di consulenza occasionale. Sono un Dottorando (con laurea magistrale in Medicina e Chirurgia, specializzato in Psichiatria) in Neuroscienze. Le mie [ricerche](research.html) sono nel campo della medicina, in particolare in Psichiatria e Salute Mentale, si focalizzano principalmente sull'utilizzo di statistica e machine learning su dati epidemiologici.
 
-Vorrei aiutare persone che necessitano di un *piccolo* aiuto statistico, ma non di uno statistico consulente completo. Da quando ho iniziato a fare statistica, un sacco di amici e colleghi mi chiamavno e mi scrivevano per chiedere **aiuti statistici**. Mi diverto molto ad aiutarli. Ma mi sono reso conto che non tutti hanno un migliore amico statistico... finora!
+Vorrei aiutare persone che necessitano di un *piccolo* aiuto statistico, ma non di uno statistico consulente completo. Da quando ho iniziato a fare statistica, un sacco di amici e colleghi mi chiamano e mi scrivono per chiedere **aiuti statistici**. Mi diverto molto ad aiutarli. Ma mi sono reso conto che non tutti hanno un migliore amico statistico... finora!
 
 La tua ricerca e i tuoi dati sono importanti. Hai dedicato molto lavoro, impegno e tempo per ottenere i dati giusti per rispondere alle tue domande. E ora è il momento di analizzarli! Ci sono una miriade di possibili modelli statistici. Non perdere tempo e dai valore a tutti i tuoi sforzi, [contattami](contact.html).
 
@@ -36,7 +36,7 @@ La tua ricerca e i tuoi dati sono importanti. Hai dedicato molto lavoro, impegno
 - Eseguire le analisi al tuo posto.
 - Scrivere la sezione metodi/risultati al tuo posto.
 - Scrivere i codici al tuo posto (ma posso condividere i miei codici con te).
-- Insistere che tu mi inserisca tra gli autori del tuo articolo (ma puoi ringraziarmi nei *acknowledgments* se vuoi).
+- Insistere che tu mi inserisca tra gli autori del tuo articolo (ma puoi ringraziarmi negli *acknowledgments* se vuoi).
 
 ### Cosa so fare:
 - Revisioni sistematiche e Meta-analisi.
@@ -47,7 +47,7 @@ La tua ricerca e i tuoi dati sono importanti. Hai dedicato molto lavoro, impegno
 - Software che conosco: R, STATA.
 
 ### Cosa non so fare:
-- Hai bisogno di aiuto su qualcosa esula dalla mia area di competenza? Te lo farò sapere, ti consiglierò persone/riferimenti che potrebbero aiutarti e *rimborserò i tuoi soldi*!
+- Hai bisogno di aiuto su qualcosa che esula dalla mia area di competenza? Te lo farò sapere, ti consiglierò persone/riferimenti che potrebbero aiutarti e *rimborserò i tuoi soldi*!
 
 </br>
 

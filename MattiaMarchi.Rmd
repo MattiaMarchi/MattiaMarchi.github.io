@@ -4,9 +4,7 @@ author: "Mattia Marchi"
 output:  html_document
 ---
 
-
-
-<img src="images/Me1.jpg" style="width:25%; margin-right: 20px" align="left">
+<img src="images/Me1.jpg" style="width:27%; margin-right: 20px" align="left">
 
 **NOTE**: I am now open for [Casual Stats Consulting](index.html). A solution for those who don't need a full on consulting statistician, but need a little bit of help.
 
@@ -16,8 +14,9 @@ output:  html_document
 
 </br>
 
-I am an avid lover of anything silly or statistical (especially if it's both at once). I am currently a PhD student at Chapman University here in Southern California where I not only do research, but also teach some Introductory courses in R and Python.
+*It is not important to know all things, but you will always have to know where to look.*
 
-My research is done with the Machine Learning and Assistive Technology Lab [(MLAT)](http://mlat.chapman.edu/), and focuses on applying statistical and Machine Learning techniques to Behavioral Data. See [here](https://www.linkedin.com/in/chelseaparlettpelleriti/) for some selected works.
+I am a deeply curious person and a lover of music and science. I am a Medical Doctor, specialized in Psychiatry, and I am going to start a PhD in Neuroscience at the University of Modena and Reggio Emilia (ITALY). I am also external research contributor at the University of Utrecht (the Netherlands). Here, in Italy, I do both research and clinical activities, which helps me a lot in translating the results of my research into clinical practice.
 
-I also do a lot of statistical writing, both professionally and for fun. Check out the Writing page to see some of my work. If you're in the mood for something silly, check out [Everyone P-hacks](https://medium.com/@chelseaparlett/everyone-p-hacks-a-lighthearted-guide-for-new-academics-55f68c9f78cb) or [An Ode to Neural Networks and Their Layers](https://medium.com/@chelseaparlett/one-layer-two-layer-1a2c70e594).For somehting more serious, I recommend checking out the [Crash Course Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr) videos I wrote, or this article on [Hierarchical clustering](https://community.jmp.com/t5/JMP-Blog/Hierarchical-clustering/ba-p/192425) I wrote for JMP Software. If you're interested in hiring me, I'd love to write for you! You can contact me [here](contact.html).
+I started my research experience in peer-to-peer groups, and step-by-step I had the opportunity to expand my network to international colleagues, which many of them became also my friends.
+I feel a great commitment to globalizing research collaborations, and if you're interested in hiring me, I'd love to work with you! You can contact me [here](contact.html).

@@ -4,5 +4,5 @@ author: "Mattia Marchi"
 output: html_document
 ---
 
-Some of my codes may be helpful for you.
+Some of my codes may be helpful for you. Find them here:
 [GitHub](https://github.com/MattiaMarchi)
