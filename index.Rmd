@@ -4,7 +4,7 @@ subtitle: "Hi-Fi Statistics"
 output: html_document
 ---
 <center>
-<img src="images/LOGO STATISFY-1 copia.jpg" style="width:50%;margin-right: 20px" align="center">
+<img src="images/LOGO STATISFY-1 copia.jpg" style="width:40%;margin-right: 20px" align="center">
 
 ## **STATISFY** aims to provide you with **satisfying statistical advice**.
 </br>
