@@ -13,8 +13,8 @@
 
 <title>STATISFY</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -308,14 +316,37 @@ $(document).ready(function () {
 </center>
 <p></br></p>
 <center>
-<div id="statisfy-mira-a-fornirti-consigli-statistici-soddisfacenti" class="section level2">
-<h2><strong>STATISFY</strong> mira a fornirti <strong>consigli statistici soddisfacenti</strong></h2>
+<div id="statisfy-mira-a-fornirti-consigli-statistici-soddisfacenti"
+class="section level2">
+<h2><strong>STATISFY</strong> mira a fornirti <strong>consigli
+statistici soddisfacenti</strong></h2>
 </center>
 <p></br></p>
-<p>Statisfy (sono io, <strong><a href="MattiaMarchi.html">Mattia</a></strong>) è qui per <strong><a href="contact.html">parlare</a></strong> di tutte le tue esigenze di consulenza occasionale. Sono un Dottorando (con laurea magistrale in Medicina e Chirurgia, specializzato in Psichiatria) in Neuroscienze. Le mie <a href="research.html">ricerche</a> sono nel campo della medicina, in particolare in Psichiatria e Salute Mentale, si focalizzano principalmente sull’utilizzo di statistica e machine learning su dati epidemiologici.</p>
-<p>Vorrei aiutare persone che necessitano di un <em>piccolo</em> aiuto statistico, ma non di uno statistico consulente completo. Da quando ho iniziato a fare statistica, un sacco di amici e colleghi mi chiamano e mi scrivono per chiedere <strong>aiuti statistici</strong>. Mi diverto molto ad aiutarli. Ma mi sono reso conto che non tutti hanno un migliore amico statistico… finora!</p>
-<p>La tua ricerca e i tuoi dati sono importanti. Hai dedicato molto lavoro, impegno e tempo per ottenere i dati giusti per rispondere alle tue domande. E ora è il momento di analizzarli! Ci sono una miriade di possibili modelli statistici. Non perdere tempo e dai valore a tutti i tuoi sforzi, <a href="contact.html">contattami</a>.</p>
-<p><em>Dovresti ingaggiarmi se stai per iniziare ad analizzare i tuoi dati e hai bisogno di essere indirizzato sulla strada giusta (ossia, sul miglior modello statistico), oppure se stai facendo le tue analisi statistiche ma hai bisogno di un controllo d’integrità o di risposte per essere sicuro che stai facendo le cose correttamente.</em></p>
+<p>Statisfy (sono io, <strong><a
+href="MattiaMarchi.html">Mattia</a></strong>) è qui per <strong><a
+href="contact.html">parlare</a></strong> di tutte le tue esigenze di
+consulenza occasionale. Sono un Dottorando (con laurea magistrale in
+Medicina e Chirurgia, specializzato in Psichiatria) in Neuroscienze. Le
+mie <a href="research.html">ricerche</a> sono nel campo della medicina,
+in particolare in Psichiatria e Salute Mentale, si focalizzano
+principalmente sull’utilizzo di statistica e machine learning su dati
+epidemiologici.</p>
+<p>Vorrei aiutare persone che necessitano di un <em>piccolo</em> aiuto
+statistico, ma non di uno statistico consulente completo. Da quando ho
+iniziato a fare statistica, un sacco di amici e colleghi mi chiamano e
+mi scrivono per chiedere <strong>aiuti statistici</strong>. Mi diverto
+molto ad aiutarli. Ma mi sono reso conto che non tutti hanno un migliore
+amico statistico… finora!</p>
+<p>La tua ricerca e i tuoi dati sono importanti. Hai dedicato molto
+lavoro, impegno e tempo per ottenere i dati giusti per rispondere alle
+tue domande. E ora è il momento di analizzarli! Ci sono una miriade di
+possibili modelli statistici. Non perdere tempo e dai valore a tutti i
+tuoi sforzi, <a href="contact.html">contattami</a>.</p>
+<p><em>Dovresti ingaggiarmi se stai per iniziare ad analizzare i tuoi
+dati e hai bisogno di essere indirizzato sulla strada giusta (ossia, sul
+miglior modello statistico), oppure se stai facendo le tue analisi
+statistiche ma hai bisogno di un controllo d’integrità o di risposte per
+essere sicuro che stai facendo le cose correttamente.</em></p>
 <p></br></p>
 <div id="perchè-dovresti-ingaggiarmi" class="section level3">
 <h3>Perchè dovresti ingaggiarmi:</h3>
@@ -323,18 +354,19 @@ $(document).ready(function () {
 <li>Non ti parlerò con sufficienza.</li>
 <li>Ho esperienza nella pianificazione di studi sperimentali.</li>
 <li>Conosco la statistica e mi diverto ad analizzare i dati.</li>
-<li>Ho affinato la mia abilità di rendere concetti complessi pronti per essere compresi e memorizzati.</li>
-<li>Sono madrelingua italiano e conosco l’inglese (posso fornire supporto in entrambe le lingue) e <strong><a href="statisfyEN.html">puoi leggere questa pagina anche in inglese</a></strong>.</li>
+<li>Ho affinato la mia abilità di rendere concetti complessi pronti per
+essere compresi e memorizzati.</li>
+<li>Sono madrelingua italiano e conosco l’inglese (posso fornire
+supporto in entrambe le lingue) e <strong><a href="statisfyEN.html">puoi
+leggere questa pagina anche in inglese</a></strong>.</li>
 </ul>
 </div>
 <div id="cosa-non-faccio" class="section level3">
 <h3>Cosa NON faccio:</h3>
 <ul>
 <li>Ripetizioni di statistica.</li>
-<li>Eseguire le analisi al tuo posto.</li>
-<li>Scrivere la sezione metodi/risultati al tuo posto.</li>
-<li>Scrivere i codici al tuo posto (ma posso condividere i miei codici con te).</li>
-<li>Insistere che tu mi inserisca tra gli autori del tuo articolo (ma puoi ringraziarmi negli <em>acknowledgments</em> se vuoi).</li>
+<li>Insistere che tu mi inserisca tra gli autori del tuo articolo (ma
+puoi ringraziarmi negli <em>acknowledgments</em> se vuoi).</li>
 </ul>
 </div>
 <div id="cosa-so-fare" class="section level3">
@@ -351,23 +383,15 @@ $(document).ready(function () {
 <div id="cosa-non-so-fare" class="section level3">
 <h3>Cosa non so fare:</h3>
 <ul>
-<li>Hai bisogno di aiuto su qualcosa che esula dalla mia area di competenza? Te lo farò sapere, ti consiglierò persone/riferimenti che potrebbero aiutarti e <em>rimborserò i tuoi soldi</em>!</li>
-</ul>
-<p></br></p>
-</div>
-<div id="il-menu" class="section level3">
-<h3>Il MENU</h3>
-<p></br></p>
-<ul>
-<li><p><strong>Chiacchierata Estesa (80€):</strong> 60 minuti di chiamata video/vocale di consulenza + 3 email di follow up.</p></li>
-<li><p><strong>Chiacchierata Media (45€):</strong> 30 minuti di chiamata video/vocale di consulenza + 2 email di follow up.</p></li>
-<li><p><strong>Piccola Chiacchierata (25€):</strong> 15 minuti di chiamata video/vocale di consulenza + 2 email di follow up.</p></li>
-<li><p><strong>Nano Chiacchierata (20€):</strong> Una consulenza solamente per iscritto. Fino a 30 minuti del mio tempo (solo il tempo speso a leggere/rispondere viene conteggiato!).</p></li>
-<li><p><strong>Revisore 2 Special (50€):</strong> Hai bisogno di aiuto per preparare la tua sezione dei metodi? O per rispondere ad una critica scorretta di un revisore? Spenderò fino a 30 minuti a revisionare il tuo articolo e farò una chiamata video/vocale di 30 minuti con te.</p></li>
+<li>Hai bisogno di aiuto su qualcosa che esula dalla mia area di
+competenza? Te lo farò sapere, ti consiglierò persone/riferimenti che
+potrebbero aiutarti e <em>rimborserò i tuoi soldi</em>!</li>
 </ul>
 <p></br></p>
 <center>
-<strong>Per ingaggiarmi, manda un’email a <a href="mailto:statisfy@icloud.com" class="email">statisfy@icloud.com</a></strong>
+<strong>Per ingaggiarmi, manda un’email a <a
+href="mailto:statisfy@icloud.com"
+class="email">statisfy@icloud.com</a></strong>
 </center>
 </div>
 </div>
