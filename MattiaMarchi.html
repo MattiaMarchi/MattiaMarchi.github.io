@@ -14,8 +14,8 @@
 
 <title>Who am I?</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -235,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -304,14 +312,30 @@ $(document).ready(function () {
 
 
 <p><img src="images/Me1.jpg" style="width:27%; margin-right: 20px" align="left"></p>
-<p><strong>NOTE</strong>: I am now open for <a href="statisfyEN.html">Casual Stats Consulting</a>. A solution for those who don’t need a full on consulting statistician, but need a little bit of help.</p>
+<p><strong>NOTE</strong>: I am now open for <a
+href="statisfyEN.html">Casual Stats Consulting</a>. A solution for those
+who don’t need a full on consulting statistician, but need a little bit
+of help.</p>
 <center>
-<strong>To hire me, email me at <a href="mailto:statisfy@icloud.com" class="email">statisfy@icloud.com</a></strong>
+<strong>To hire me, email me at <a href="mailto:statisfy@icloud.com"
+class="email">statisfy@icloud.com</a></strong>
 </center>
 <p></br></p>
-<p><em>It is not important to know all things, but you will always have to know where to look.</em></p>
-<p>I am a deeply curious person and a lover of music and science. I am a Medical Doctor, specialized in Psychiatry, and I am going to start a PhD in Neuroscience at the University of Modena and Reggio Emilia (ITALY). I am also external research contributor at the University of Utrecht (the Netherlands). Here, in Italy, I do both research and clinical activities, which helps me a lot in translating the results of my research into clinical practice.</p>
-<p>I started my research experience in peer-to-peer groups, and step-by-step I had the opportunity to expand my network to international colleagues, which many of them became also my friends. I feel a great commitment to globalizing research collaborations, and if you’re interested in hiring me, I’d love to work with you! You can contact me <a href="contact.html">here</a>.</p>
+<p><em>It is not important to know all things, but you will always have
+to know where to look.</em></p>
+<p>I am a deeply curious person and a lover of music and science. I am a
+Medical Doctor, specialized in Psychiatry, and I am going to start a PhD
+in Neuroscience at the University of Modena and Reggio Emilia (ITALY). I
+am also external research contributor at the University of Utrecht (the
+Netherlands). Here, in Italy, I do both research and clinical
+activities, which helps me a lot in translating the results of my
+research into clinical practice.</p>
+<p>I started my research experience in peer-to-peer groups, and
+step-by-step I had the opportunity to expand my network to international
+colleagues, which many of them became also my friends. I feel a great
+commitment to globalizing research collaborations, and if you’re
+interested in hiring me, I’d love to work with you! You can contact me
+<a href="contact.html">here</a>.</p>
 
 
 
